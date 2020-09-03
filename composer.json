@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "vehikl/php-jwt": "^4.0",
+        "vehikl/php-jwt": "dev-master",
         "phpseclib/phpseclib": "^2.0"
     },
     "autoload": {
