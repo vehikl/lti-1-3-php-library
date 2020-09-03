@@ -1,8 +1,14 @@
 {
     "name": "imsglobal/lti-1p3-tool",
     "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vehikl/php-jwt"
+        }
+    ],
     "require": {
-        "fproject/php-jwt": "^4.0",
+        "vehikl/php-jwt": "^4.0",
         "phpseclib/phpseclib": "^2.0"
     },
     "autoload": {
