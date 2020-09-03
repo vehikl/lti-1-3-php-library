@@ -1,8 +1,8 @@
 <?php
 namespace IMSGlobal\LTI;
 
-use Firebase\JWT\JWK;
-use Firebase\JWT\JWT;
+use Vehikl\JWT\JWK;
+use Vehikl\JWT\JWT;
 
 JWT::$leeway = 5;
 
